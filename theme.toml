@@ -1,16 +1,16 @@
-name = "Universal"
+name = "GitGuild"
 license = "MIT"
 licenselink = "https://github.com/devcows/hugo-universal-theme/blob/master/LICENSE"
-description = "A port of the Universal theme"
+description = "A fork of the Universal theme for The Git Guild"
 tags = ["blog", "company", "portfolio", "projects", "minimal", "responsive"]
 features = ["blog", "themes", "disqus", "minimal", "responsive"]
 min_version = 0.15
 
 [author]
+    name = "ChrisSavoie"
+    homepage = "https://github.com/chrissavoie"
+
+[original]
     name = "adrianmo"
     homepage = "https://github.com/adrianmo"
-
-# If Porting existing theme
-[original]
-    author =  "bootstrapious"
-    homepage = "http://bootstrapious.com/p/universal-business-e-commerce-template"
+    
