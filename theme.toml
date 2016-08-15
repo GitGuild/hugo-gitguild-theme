@@ -1,6 +1,6 @@
 name = "GitGuild"
 license = "MIT"
-licenselink = "https://github.com/devcows/hugo-universal-theme/blob/master/LICENSE"
+licenselink = "https://github.com/chrissavoie/hugo-gitguild-theme/blob/master/LICENSE"
 description = "A fork of the Universal theme for The Git Guild"
 tags = ["blog", "company", "portfolio", "projects", "minimal", "responsive"]
 features = ["blog", "themes", "disqus", "minimal", "responsive"]
@@ -12,5 +12,4 @@ min_version = 0.15
 
 [original]
     name = "adrianmo"
-    homepage = "https://github.com/adrianmo"
-    
+    homepage = "https://github.com/devcows/hugo-universal-theme"

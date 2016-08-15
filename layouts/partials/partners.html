@@ -1,6 +1,5 @@
 {{ if isset .Site.Params "partners" }}
 {{ if .Site.Params.partners.enable }}
-{{ if gt (len .Site.Data.partners) 0 }}
 <section class="bar background-gray no-mb">
     <div class="container">
         <div class="row">
@@ -12,20 +11,22 @@
                 <p class="lead">
                   {{ .Site.Params.partners.subtitle }}
                 </p>
-
-                <ul class="owl-carousel customers">
-                    {{ range .Site.Data.partners }}
-                    <li class="item">
-                        <img src="{{ .image }}" alt="{{ .name }}" class="img-responsive">
-                    </li>
-                    {{ end }}
-                </ul>
-                <!-- /.owl-carousel -->
             </div>
-
+        </div>
+        <div class="row">
+            {{ range where .Data.Pages "Section" "partners" }}
+            <div class="col-md-6 patner-item">
+                <div class="col-md-12">
+                    <img class="partner-item__logo" src="{{ .Site.BaseURL }}{{ .Params.logo }}" />
+                    <p class="partner-item__summary truncate-lines">{{ .Summary }}</p>
+                </div>
+                <div class="col-md-12">
+                    <img class="partner-item__banner img-responsive" src="{{ .Site.BaseURL }}{{ .Params.banner }}" />
+                </div>
+            </div>
+            {{ end }}
         </div>
     </div>
 </section>
-{{ end }}
 {{ end }}
 {{ end }}
