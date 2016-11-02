@@ -15,14 +15,14 @@
         </div>
         <div class="row">
             {{ range where .Data.Pages "Section" "partners" }}
-            <div class="col-md-6 patner-item">
+            <div class="col-md-6 partner-item">
                 <div class="col-md-12">
                     <img class="partner-item__logo" src="{{ .Site.BaseURL }}{{ .Params.logo }}" />
-                    <p class="partner-item__summary truncate-lines">{{ .Summary }}</p>
+                    <!--<p class="partner-item__summary truncate-lines">{{ .Summary }}</p>-->
                 </div>
-                <div class="col-md-12">
+                <!--<div class="col-md-12">
                     <img class="partner-item__banner img-responsive" src="{{ .Site.BaseURL }}{{ .Params.banner }}" />
-                </div>
+                </div>-->
             </div>
             {{ end }}
         </div>

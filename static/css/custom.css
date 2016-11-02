@@ -151,7 +151,7 @@
     align-items: center;
 }
 
-.patner-item{
+.partner-item{
     margin: 4em 0 0;
 }
 
@@ -169,11 +169,11 @@
 }
 
 @media (min-width: 769px) {
-    .patner-item:nth-child(odd){
+    .partner-item:nth-child(odd){
         padding-right: 10%;
     }
 
-    .patner-item:nth-child(even){
+    .partner-item:nth-child(even){
         padding-left: 10%;
     }
 }

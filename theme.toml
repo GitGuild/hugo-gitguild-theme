@@ -1,7 +1,7 @@
 name = "GitGuild"
 license = "MIT"
 licenselink = "https://github.com/chrissavoie/hugo-gitguild-theme/blob/master/LICENSE"
-description = "A fork of the Universal theme for The Git Guild"
+description = "A fork of the Universal theme for The GitGuild"
 tags = ["blog", "company", "portfolio", "projects", "minimal", "responsive"]
 features = ["blog", "themes", "disqus", "minimal", "responsive"]
 min_version = 0.15
